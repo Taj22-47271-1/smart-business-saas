@@ -1,0 +1,25 @@
+SMART BUSINESS SAAS - ORIGINAL CONCEPT FIXED
+
+This project keeps the original subscription, payment, sales, stock, expense,
+report, chat, admin, QR, CSV, and business-management concept.
+
+Windows setup:
+
+1) Backend
+   cd backend
+   python -m venv venv
+   venv\Scripts\activate
+   copy .env.example .env
+   python -m pip install -r requirements.txt
+   python manage.py migrate
+   python manage.py createsuperuser
+   python manage.py runserver
+
+2) Frontend (new terminal)
+   cd frontend
+   copy .env.example .env.local
+   npm ci
+   npm run dev
+
+Open http://localhost:3000
+Admin: http://127.0.0.1:8000/admin/
