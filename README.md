@@ -200,7 +200,8 @@ smart-business-saas/
 ├── .gitignore
 └── README.md
 ```
-
+-admin@gmail.com
+admin12345
 ## Prerequisites
 
 Install the following software before running the project:
@@ -408,12 +409,12 @@ The current configuration is suitable for local development. Before a production
 
 ## Developer
 
-**Salman Arefin**  
+**MD.Mahamodul Hasan Taj**  
 Computer Science and Engineering  
 Software Engineering Project
+_mhtaj655@gmail.com
 
--admin@gmail.com
-admin12345
+
 
 ---
 
